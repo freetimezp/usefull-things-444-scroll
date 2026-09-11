@@ -1,38 +1,237 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <link rel="icon" href="/vite.svg" type="image/svg+xml" />
+
         <link rel="stylesheet" href="./src/assets/css/style.css" />
-        <title>Project</title>
+
+        <title>Cartoon Scroll</title>
     </head>
 
     <body>
-        <nav>
-            <a href="#">Design</a>
+        <!-- NAV -->
+
+        <nav class="nav">
+            <a href="#" class="logo">YOYO</a>
+
+            <div class="nav-status">
+                <span class="status-dot"></span>
+                SCROLLING
+            </div>
+
+            <div class="counter">
+                <span class="counter-current">01</span>
+                <span>/</span>
+                <span>05</span>
+            </div>
         </nav>
 
-        <section class="hero"></section>
+        <!-- MAIN SCROLL AREA -->
 
-        <section class="about">
-            <h1>We wait your scrolling</h1>
-        </section>
+        <main class="scroll-container">
+            <!-- HERO -->
 
-        <div class="lottie-container">
-            <div class="lottie"></div>
-            <div class="hero-img">
-                <img src="./src/assets/images/hero.jpg" alt="" />
-            </div>
-        </div>
+            <section class="hero">
+                <div class="hero-copy">
+                    <div class="eyebrow">
+                        <span>01</span>
+                        SOMETHING FUN
+                    </div>
+
+                    <h1 class="hero-title">
+                        <span class="title-black">THIS</span>
+                        <span class="title-blue">IS</span>
+                        <span class="title-yellow">NOT</span>
+                        <span class="title-pink">SERIOUS.</span>
+                    </h1>
+
+                    <div class="hero-description">
+                        <p>
+                            A tiny cartoon world controlled entirely by your
+                            scrolling.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARTOON CHARACTER -->
+
+                <div class="character">
+                    <div class="character-shadow"></div>
+
+                    <div class="body">
+                        <div class="body-shape">
+                            <div class="eye eye-left">
+                                <span></span>
+                            </div>
+
+                            <div class="eye eye-right">
+                                <span></span>
+                            </div>
+
+                            <div class="nose"></div>
+
+                            <div class="mouth">
+                                <span></span>
+                            </div>
+
+                            <div class="cheek cheek-left"></div>
+                            <div class="cheek cheek-right"></div>
+                        </div>
+                    </div>
+
+                    <div class="arm arm-left">
+                        <div class="hand"></div>
+                    </div>
+
+                    <div class="arm arm-right">
+                        <div class="hand"></div>
+                    </div>
+                </div>
+
+                <!-- FLOATING ELEMENTS -->
+
+                <div class="sticker sticker-wow">WOW!</div>
+
+                <div class="sticker sticker-nope">NOPE.</div>
+
+                <div class="sticker sticker-ok">OKAY →</div>
+
+                <div class="scroll-hint">
+                    <span>SCROLL TO BREAK IT</span>
+                    <div class="scroll-arrow">↓</div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+
+            <section class="about">
+                <div class="about-number">02</div>
+
+                <h2 class="section-title split">
+                    WE WAIT
+                    <br />
+                    YOUR
+                    <br />
+                    SCROLLING.
+                </h2>
+
+                <div class="speech-bubble bubble-one">
+                    <span>HEY!</span>
+                </div>
+
+                <div class="speech-bubble bubble-two">
+                    <span>KEEP GOING →</span>
+                </div>
+            </section>
+
+            <!-- CHAOS -->
+
+            <section class="chaos">
+                <div class="chaos-title">
+                    <span class="split">THINGS</span>
+                    <span class="split">ARE GETTING</span>
+                    <span class="split">WEIRD.</span>
+                </div>
+
+                <div class="comic-card card-one">
+                    <span class="card-number">01</span>
+                    <strong>HIDE</strong>
+                    <small>some stuff</small>
+                </div>
+
+                <div class="comic-card card-two">
+                    <span class="card-number">02</span>
+                    <strong>SHOW</strong>
+                    <small>new stuff</small>
+                </div>
+
+                <div class="comic-card card-three">
+                    <span class="card-number">03</span>
+                    <strong>MOVE</strong>
+                    <small>everything</small>
+                </div>
+
+                <div class="cross cross-one">+</div>
+                <div class="cross cross-two">+</div>
+            </section>
+
+            <!-- IMAGE REVEAL -->
+
+            <section class="reveal">
+                <div class="reveal-top">
+                    <span>04</span>
+                    <span>OKAY, ENOUGH</span>
+                </div>
+
+                <div class="image-wrapper">
+                    <img src="./src/assets/images/hero.jpg" alt="" />
+
+                    <div class="image-overlay"></div>
+
+                    <div class="image-label">
+                        <span>THE REAL WORLD</span>
+                        <span>↓</span>
+                    </div>
+                </div>
+
+                <h2 class="reveal-title">
+                    <span>BACK</span>
+                    <span>TO</span>
+                    <span>REALITY.</span>
+                </h2>
+            </section>
+
+            <!-- FINAL -->
+
+            <section class="final">
+                <div class="final-top">
+                    <span>05</span>
+                    <span>END OF THE NONSENSE</span>
+                </div>
+
+                <div class="final-card">
+                    <div class="final-card-top">
+                        <span>DESIGN DEPARTMENT</span>
+                        <span>EST. 2026</span>
+                    </div>
+
+                    <div class="final-character">
+                        <div class="final-eye"></div>
+                        <div class="final-eye"></div>
+
+                        <div class="final-mouth"></div>
+                    </div>
+
+                    <h2>
+                        THAT WAS
+                        <br />
+                        FUN.
+                    </h2>
+
+                    <div class="final-bottom">
+                        <span>THANKS FOR SCROLLING</span>
+
+                        <button>AGAIN ↑</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- GSAP -->
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
 
-        <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.13.0/lottie.min.js"></script>
+        <!-- LENIS -->
+
+        <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
 
         <script type="module" src="./src/assets/js/main.js"></script>
     </body>
